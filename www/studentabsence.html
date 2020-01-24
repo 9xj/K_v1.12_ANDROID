@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title>KAMAR Web</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	
+
+</head>
+<body>
+<div id="common-navigation" class="common-navigation">
+</div>
+<div id="page-wrapper">
+	<div data-role="page" id="studentdetails" >
+		<div class="first-level-wrapper">
+			<div class="second-level-wrapper">
+				<div class="third-level-wrapper">
+					<div class="fourth-level-wrapper">
+						<div class="common-header" data-role="header" data-theme="d">
+							<a href="menu.html" data-icon="arrow-l" data-transition="slide" data-direction="reverse" >KAMAR</a>
+							<h1>Student Abscence</h1>
+							<a id="studentsearchbutton" style="display: none;" href="studentsearch.html" data-icon="arrow-r" data-transition="slide" >Search</a>
+						</div><!-- /header -->
+
+						<div data-role="content">
+							<div class="student-details" >
+								<div class="student-name">&nbsp;</div>
+								<div class="student-year-level">&nbsp;</div>
+								<div class="student-tutor">&nbsp;</div>
+							</div>
+							<div>
+								<form id="absenceReasonSubmit">
+									<p style="text-align:center">Please enter the reason for the absence:</p>
+									<textarea id="reasonText" type="text" rows="12" value="" ></textarea>
+									<input class="" id="absenceReason" type="button" value="Submit" /> 
+									<p style="text-align: center; padding-top:5px; padding-bottom:5px;" id="confirmed"></p>
+									<p id="testing"></p>
+								</form>
+							</div>
+						</div><!-- /content -->
+					</div>
+				</div>
+			</div>
+		</div>
+	</div><!-- /page -->
+</div>
+</body>
+</html>
